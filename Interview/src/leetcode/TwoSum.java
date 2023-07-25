@@ -14,24 +14,24 @@ import java.util.HashMap;
 public class TwoSum {
 
 	public static void main(String[] args) {
-		int[] nums= {2,7,11,15};
-		int target=9;
-		//[0,1]
-		int[] result=solution(nums,target);
+		int[] nums = { 2, 7, 11, 15 };
+		int target = 9;
+		// [0,1]
+		int[] result = solution(nums, target);
 		System.out.println(Arrays.toString(result));
 	}
 
 	public static int[] solution(int[] nums, int target) {
-		HashMap<Integer, Integer> map=new  HashMap<Integer, Integer>();
+		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < nums.length; i++) {
-			//9-2=5
-			int compliment=target-nums[i];
-			if(map.containsKey(compliment)) {
-				return new int[] {map.get(compliment ),i};
+			// 9-2=5
+			int compliment = target - nums[i];
+			if (map.containsKey(compliment)) {
+				return new int[] { map.get(compliment), i };
 			}
 			map.put(nums[i], i);
 		}
-		
+
 		return null;
 	}
 }

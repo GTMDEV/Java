@@ -1,4 +1,4 @@
-package java8.employee;
+package java8;
 
 import java.util.Arrays;
 
