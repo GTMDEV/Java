@@ -5,7 +5,7 @@ public class ZeroMatrix {
 		int[][] matrix = { { 1, 2, 3 }, { 4, 0, 6 }, { 7, 8, 9 } };
 		System.out.println("Original Matrix:");
 		printMatrix(matrix);
-
+		setZeros(matrix);
 		System.out.println("Matrix after setting zeros:");
 		printMatrix(matrix);
 

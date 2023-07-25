@@ -10,7 +10,6 @@ public class SearchInInfinteArray {
 	}
 
 	public static int ans(int[] nums, int target) {
-
 		int start = 0;
 		int end = 1;
 
