@@ -9,6 +9,7 @@ public class Comparison {
 		String c = a;
 		System.out.println(c == a);
 		System.out.println(a == b);
+
 		System.out.println(b == c);
 
 		String name1 = new String("Goutam");
@@ -19,5 +20,6 @@ public class Comparison {
 
 		System.out.println(a == name1);
 		System.out.println(a.equals(name1));
+
 	}
 }
